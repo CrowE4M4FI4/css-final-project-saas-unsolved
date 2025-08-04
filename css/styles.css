@@ -85,7 +85,7 @@
 
 .company-slogan {
     width: 482px;
-    background-image: url(../assets/bg/background-top.svg);
+    /* background-image: url(../assets/bg/background-top.svg); */
 }
 
 .company-slogan h2 {
@@ -122,15 +122,14 @@
     height: 25px;
     border-radius: 13px;
     background-color: white;
-    gap: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .fa-play {
-    width: 50%;
-    height: 50%;
+    width: 12px;
+    height: 12px;
     color: #377DFF;
     
 }
