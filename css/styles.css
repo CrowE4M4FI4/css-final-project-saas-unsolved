@@ -22,10 +22,11 @@
 .header-content {
     width: 1024px;
     height: 86px;
+    background-color: #F6F8FA;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 0 0 30px;
     height: 86px;
 }
 
@@ -38,6 +39,7 @@
 
 .top-navigation {
     display: flex;
+    padding: 0 40px 0 0;
 }
 
 .top-navigation
@@ -50,15 +52,16 @@
 }
 
 .top-navigation ul {
+    width: 430px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 5px;
     list-style-type: none;
 }
 
 .top-navigation ul li {
-    width: 80px;
-    text-align: center;
-    align-content: center;
+    height: 17px;
 }
 
 .top-navigation ul li a,
@@ -70,22 +73,33 @@
 .buy-now {
     width: 102px;
     height: 45px;
-    border-radius: 23px;
+    border-radius: 30px;
     border-color: #377DFF;
     background-color: #377DFF;
-    color: white;
+    color: #ffffff;
 }
 
 .header-content
 .company-slogan {
-    display: flex;
     width: 482px;
     height: 406px;
 }
 
+div.company-motto {
+    margin: 0 auto;
+    width: 1024px;
+    height: 406px;
+    background-image: url(../assets/bg/background-top.svg);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 30px ;
+}
+
 .company-slogan {
     width: 482px;
-    /* background-image: url(../assets/bg/background-top.svg); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .company-slogan h2 {
@@ -95,12 +109,16 @@
 }
 
 .company-slogan div p {
-
+    font-weight: 500;
+    font-size: 12px;
+    align-content: center;
 }
 
 .learn-more {
     display: flex;
+    align-items: center;
     gap: 20px;
+    color: #677788;
 }
 
 .play-video {
@@ -122,14 +140,160 @@
     height: 25px;
     border-radius: 13px;
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .fa-play {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     color: #377DFF;
-    
+    margin: 4px auto;
+}
+
+.ad-logos {
+    width: 482px;
+    height: 406px;
+    position: relative;
+}
+
+.google {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    background-image: url(../assets/logos/google.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 10px;
+    left: 64px;
+}
+
+.atlassian {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    background-image: url(../assets/logos/atlassian.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 10px;
+    left: 175px;
+}
+
+.asana {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    background-image: url(../assets/logos/asana.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 10px;
+    left: 380px;
+}
+
+.paypal {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    background-image: url(../assets/logos/paypal.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 172px;
+    left: 44px;
+}
+
+.weave {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    background-image: url(../assets/logos/weave.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 172px;
+    left: 262px;
+}
+
+.google-ads {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    background-image: url(../assets/logos/google-ads.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 290px;
+    left: 155px;
+}
+
+.calendar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    background-image: url(../assets/logos/calendar.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 310px;
+    left: 364px;
+}
+
+.company-choose {
+    width: 1024px;
+    height: 354px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.why-us {
+    width: 600px;
+    height: 89px;
+    display: flex;
+    flex-direction: column;
+}
+
+.why-front h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0;
+}
+
+.why-front p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.reasons {
+    width: 1024px;
+    height: 309px;
+    margin: 0 auto;
+    display: flex;
 }
