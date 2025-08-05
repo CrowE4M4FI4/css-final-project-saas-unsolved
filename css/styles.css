@@ -358,14 +358,24 @@ div.company-motto {
 
 .pricing-content {
     width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.pricing-content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: #677788;
 }
 
 .price-box {
     width: 114px;
-    height: 61px;
+    height: 104px;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .price {
@@ -379,10 +389,11 @@ div.company-motto {
     font-weight: 500;
     font-style: normal;
     color: #677788;
+    padding: 0 0 8px 5px;
 }
 
-     /* pricing content */
-.price-box {
-    width: 370px;
-    
+.divider {
+    width: 290px;
+    height: 1px;
+    color: #8D8D8D;
 }
