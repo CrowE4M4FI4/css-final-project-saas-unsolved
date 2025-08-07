@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .content {
     max-width: 1024px;
     padding: 0 20px;
@@ -350,10 +351,12 @@ div.company-motto {
     width: 1024px;
     height: 692px;
     margin: 0 auto;
+    
 }
 
 .pricing-text {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .pricing-content {
@@ -383,6 +386,11 @@ div.company-motto {
 .price {
     font-size: 50px;
     font-weight: 700;
+}
+
+.sub-options {
+    display: flex;
+    justify-content: space-around;
 }
 
 .subscription-content {
@@ -446,6 +454,9 @@ div.company-motto {
     height: 219px;
     border: 5px solid transparent;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #symbol {
