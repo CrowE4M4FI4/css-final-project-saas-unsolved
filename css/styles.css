@@ -357,10 +357,11 @@ div.company-motto {
 }
 
 .pricing-content {
-    width: 370px;
+    width: 290px;
+    height: 194px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .pricing-content p {
@@ -369,11 +370,12 @@ div.company-motto {
     line-height: 24px;
     font-style: normal;
     color: #677788;
+    margin: 0;
 }
 
 .price-box {
     width: 114px;
-    height: 104px;
+    height: 61px;
     display: flex;
     align-items: flex-end;
 }
@@ -381,7 +383,17 @@ div.company-motto {
 .price {
     font-size: 50px;
     font-weight: 700;
-    font-style: bold;
+}
+
+.subscription-content {
+    width: 370px;
+    height: 452px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 5px solid #677788; */
+    box-shadow: 0px 0px 15px 2px #888888;
+    padding: 40px;
 }
 
 .subscription {
@@ -395,5 +407,48 @@ div.company-motto {
 .divider {
     width: 290px;
     height: 1px;
-    color: #8D8D8D;
+    background: #8D8D8D;
+}
+
+.no-card {
+    width: 137px;
+    height: 73px;
+}
+
+#card {
+    font-weight: 500;
+    font-size: 13px;
+    color: #677788;
+}
+
+.options {
+    width: 564px;
+    height: 452px;
+    border: 2px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.options h2 {
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.options p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #677788;
+}
+
+.option {
+    width: 277px;
+    height: 219px;
+    border: 5px solid transparent;
+    margin: auto;
+}
+
+#symbol {
+    width: 50px;
+    height: 50px;
 }
