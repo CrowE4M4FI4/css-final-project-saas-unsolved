@@ -340,7 +340,7 @@ div.company-motto {
     left: 22px;
 }
 
-#point-text {
+.point-text {
     font-size: 16px;
     font-weight: 500;
     text-align: center;
@@ -459,7 +459,91 @@ div.company-motto {
     justify-content: center;
 }
 
-#symbol {
+.symbol {
     width: 50px;
     height: 50px;
+}
+
+.company-registry {
+    width: 1024px;
+    height: 709px;
+    background-color: #20335B;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hire-us {
+    width: auto;
+    height: auto;
+    color: #FFFFFF;
+}
+
+.hire-us p {
+    color: #677788;
+}
+
+.separate {
+    width: auto;
+    height: 1px;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.man {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../assets/images/man_one.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.form {
+    width: auto;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.form-text {
+    text-align: center;
+}
+
+.form-control {
+    width: 482px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#firstName {
+    width: 186px;
+    height: 44px;
+}
+
+#lastName {
+    width: 186px;
+    height: 44px;
+}
+
+#email {
+    width: 392px;
+    height: 44px;
+}
+
+#budget-select {
+    width: 186px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#country-select {
+    width: 186px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: bold;
 }

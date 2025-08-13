@@ -37,10 +37,10 @@
           <p>Own the unlimited power of the web development</p>
           <div class="learn-more">
             <button class="play-video">
-              <div class="play">
+              <span class="play">
                 <i class="fa fa-play"></i>
-              </div>
-              <p>Play Video</p></button>
+              </span>
+              <i>Play Video</i></button>
             <p>Learn more</p>
             </div>
         </div>
@@ -72,7 +72,7 @@
               </div>
               <div class="spacer"></div>
             </div>
-            <p id="point-text">Basic elements</p>
+            <p class="point-text">Basic elements</p>
           </div>
           <div class="components">
             <div class="point-box">
@@ -82,7 +82,7 @@
               </div>
               <div class="spacer"></div>
             </div>
-            <p id="point-text">Components</p>
+            <p class="point-text">Components</p>
           </div>
           <div class="combined-components">
             <div class="point-box">
@@ -92,7 +92,7 @@
               </div>
             <div class="spacer"></div>
             </div>
-            <p id="point-text">Combined components</p>
+            <p class="point-text">Combined components</p>
           </div>
           <div class="page-layouts">
             <div class="point-box">
@@ -102,7 +102,7 @@
               </div>
               <div class="sub-spacer"></div>
             </div>
-            <p id="point-text">Page layouts</p>
+            <p class="point-text">Page layouts</p>
           </div>
           </div>
           </div>
@@ -135,22 +135,22 @@
         </div>
         <div class="options">
           <div class="components option">
-            <img src="./assets/images/components.svg" alt="components" id="symbol">
+            <img src="./assets/images/components.svg" alt="components" class="symbol">
             <h2>Hundreds of components</h2>
             <p>Achieve maximum productivity with minimum effort with Front and create robust Limitless products.</p>
           </div>
           <div class="img-included option">
-            <img src="./assets/images/images.svg" alt="Images" id="symbol">
+            <img src="./assets/images/images.svg" alt="Images" class="symbol">
             <h2>Images included</h2>
             <p>Images included We made custom license for all our premium images in the front</p>
           </div>
           <div class="cancel option">
-            <img src="./assets/images/cancel.svg" alt="cancel" id="symbol">
+            <img src="./assets/images/cancel.svg" alt="cancel" class="symbol">
             <h2>Cancel anytime</h2>
             <p>If its not for you, just cancel, no hidden costs or fees.</p>
           </div>
           <div class="money-back option">
-            <img src="./assets/images/moneyback.svg" alt="moneyback" id="symbol">
+            <img src="./assets/images/moneyback.svg" alt="moneyback" class="symbol">
             <h2>Money back</h2>
             <p>100% guaranteed money back. No questions asked.</p>
           </div>
@@ -159,7 +159,63 @@
       </div>
      </section>
      <section>
-      <div class="company-registry"></div>
+      <div class="company-registry">
+        <div class="hire-us">
+          <h2 >Hire Us</h2>
+          <p>Whatever your goal - we will get you there</p>
+          <div class="separate"></div>
+          <div class="moore">
+            <h2>Charlotte Moore</h2>
+            <p>Head of Commercials, stack</p>
+            <div class="man"></div>
+          </div>
+        </div>
+        <div class="form">
+          <h3 class="form-text">Fill out the form and we'll be in touch as soon as possible</h3>
+          <div class="form-control">
+            <div class="name">
+              <input 
+              id="firstName"
+              placeholder="First name"
+              name="first-name"
+              type="text"
+              >
+              <input
+              id="lastName"
+               placeholder="Last name"
+              name="last" 
+              type="text"
+              >
+            </div>
+            <input
+            id="email"
+            placeholder="Email"
+            name="email"
+            type="email"
+            >
+            <div class="selectors">
+            <select name="budget" id="budget-select" >
+              <option value="" >Budget</option>
+              <option value="less than 20k">Less than 20k</option>
+              <option value="20k - 50k">20k - 50k</option>
+              <option value="50k -100k">50k - 100k</option>
+              <option value="greater than 100k">Greater than 100k</option>
+            </select>
+            <select name="country" id="country-select">
+              <option value="" >Country</option>
+              <option value="Canada">Canada</option>
+              <option value="USA">USA</option>
+              <option value="Mexico">Mexico</option>
+            </select>
+            </div>
+            <div id="textbox">
+              <textarea id="story" name="story" rows="6" cols="53">
+              Tell us more about your project, needs, and timeline, please...
+              </textarea>
+            </div>
+          </div>
+        </div>
+      </div>
      </section>
      <footer>
       <div class="about-us"></div>
