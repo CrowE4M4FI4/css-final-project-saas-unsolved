@@ -33,6 +33,7 @@
 
 .logo {
     width: 175px;
+    height: auto;
     display: flex;
     gap: 8px;
     align-items: center;
@@ -57,7 +58,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 5px;
     list-style-type: none;
 }
 
@@ -78,6 +78,7 @@
     border-color: #377DFF;
     background-color: #377DFF;
     color: #ffffff;
+    
 }
 
 .header-content
