@@ -472,24 +472,58 @@ div.company-motto {
     margin: 0 auto;
     padding: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
 }
 
 .hire-us {
     width: auto;
     height: auto;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+
+.hire-us h2 {
+    margin: 0;
+}
+
+.review {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
 }
 
 .hire-us p {
     color: #677788;
+    margin: 0;
+}
+
+.hire-us div i {
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 15px;
 }
 
 .separate {
-    width: auto;
+    width: 363px;
     height: 1px;
     background-color: #FFFFFF;
-    border-color: #FFFFFF;
+}
+
+.moore {
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.moore p {
+    margin-top: 0;
 }
 
 .man {
@@ -503,15 +537,17 @@ div.company-motto {
 }
 
 .form {
-    width: auto;
+    width: 482px;
     height: auto;
     background-color: #FFFFFF;
     border-radius: 15px;
-    gap: 10px;
+    
 }
 
 .form-text {
     text-align: center;
+    text-wrap: wrap;
+    margin: 0   auto;
 }
 
 .form-control {
@@ -546,5 +582,31 @@ div.company-motto {
     width: 186px;
     height: 44px;
     font-size: 14px;
+    font-weight: bold;
+}
+
+.selector {
+    width: 392px;
+    height: 76px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+    width: 25px;
+
+}
+
+.selector p {
+    width: 351px;
+    height: 44px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    color: #828282;
+}
+
+.selector a {
+    color: #677788;
     font-weight: bold;
 }
