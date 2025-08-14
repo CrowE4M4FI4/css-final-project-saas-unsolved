@@ -113,7 +113,6 @@ div.company-motto {
 .company-slogan div p {
     font-weight: 500;
     font-size: 12px;
-    align-content: center;
 }
 
 .learn-more {
@@ -487,7 +486,8 @@ div.company-motto {
 }
 
 .hire-us h2 {
-    margin: 0;
+    margin: 4px 0;
+    font-size: larger;
 }
 
 .review {
@@ -495,12 +495,12 @@ div.company-motto {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 0;
+    margin: 4px;
 }
 
 .hire-us p {
     color: #677788;
-    margin: 0;
+    margin: 10px 0;
 }
 
 .hire-us div i {
@@ -513,6 +513,7 @@ div.company-motto {
     width: 363px;
     height: 1px;
     background-color: #FFFFFF;
+    margin: 20px 0;
 }
 
 .moore {
@@ -541,19 +542,22 @@ div.company-motto {
     height: auto;
     background-color: #FFFFFF;
     border-radius: 15px;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
 }
 
 .form-text {
-    text-align: center;
+    text-align: left;
     text-wrap: wrap;
-    margin: 0   auto;
+    margin: 20px 25px;
 }
 
 .form-control {
     width: 482px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
 }
 
 #firstName {
