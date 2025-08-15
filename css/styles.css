@@ -537,7 +537,8 @@ div.company-motto {
 }
 
 .form {
-    width: 482px;
+    /* width: 482px; */
+    width: 50%;
     height: auto;
     background-color: #FFFFFF;
     border-radius: 15px;
@@ -553,19 +554,27 @@ div.company-motto {
 }
 
 .form-control {
-    width: 482px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+.name {
+    width: 392px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #firstName {
-    width: 186px;
+    width: 48%;
     height: 44px;
 }
 
 #lastName {
-    width: 186px;
+    width: 48%;
     height: 44px;
 }
 
@@ -574,35 +583,41 @@ div.company-motto {
     height: 44px;
 }
 
+.selectors {
+    width: 83%;
+    display: flex;
+    gap: 15px;
+}
+
 #budget-select {
-    width: 186px;
+    width: 48%;
     height: 44px;
     font-size: 14px;
     font-weight: bold;
 }
 
 #country-select {
-    width: 186px;
+    width: 48%;
     height: 44px;
     font-size: 14px;
     font-weight: bold;
 }
 
 .selector {
-    width: 392px;
+    width: 100%;
     height: 76px;
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
 }
 
 input[type="checkbox"] {
     transform: scale(2);
     width: 25px;
-
 }
 
 .selector p {
-    width: 351px;
+    width: 40%;
     height: 44px;
     border: 1px solid transparent;
     font-size: 14px;
