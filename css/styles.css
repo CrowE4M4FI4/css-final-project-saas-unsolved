@@ -537,7 +537,6 @@ div.company-motto {
 }
 
 .form {
-    /* width: 482px; */
     width: 50%;
     height: auto;
     background-color: #FFFFFF;
@@ -604,7 +603,7 @@ div.company-motto {
 }
 
 .selector {
-    width: 100%;
+    width: 83%;
     height: 76px;
     display: flex;
     flex-wrap: wrap;
@@ -613,18 +612,53 @@ div.company-motto {
 
 input[type="checkbox"] {
     transform: scale(2);
-    width: 25px;
+    margin: 0;
+}
+
+.input {
+    border-radius: 10px;
+}
+
+.selector div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#coding {
+    width: 3%;
 }
 
 .selector p {
-    width: 40%;
+    width: 100%;
     height: 44px;
     border: 1px solid transparent;
     font-size: 14px;
     color: #828282;
+    padding-left: 20px;
 }
 
 .selector a {
     color: #677788;
     font-weight: bold;
 }
+
+.about-us {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoA {
+    width: 175px;
+    height: auto;
+}
+
+.fa-paper-plane {
+    width: 20px;
+    height: 20px;
+    color: #677788;
+}
+
