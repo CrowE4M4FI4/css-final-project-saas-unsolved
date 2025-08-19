@@ -305,8 +305,8 @@ div.company-motto {
 .point-box {
     width: 223px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
 .spacer {
@@ -612,8 +612,8 @@ div.company-motto {
 }
 
 input[type="checkbox"] {
-    transform: scale(2);
-    margin: 0;
+    width: 20px;
+   height: 20px;
 }
 
 .input {
@@ -626,10 +626,6 @@ input[type="checkbox"] {
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
-}
-
-#coding {
-    width: 10%;
 }
 
 .selector p {
@@ -693,6 +689,11 @@ input[type="checkbox"] {
     width: 14px;
     height: 14px;
     color: #677788;
-    /*
 }
+
+.help span {
+    color: #677788;
+}
+
+
 
