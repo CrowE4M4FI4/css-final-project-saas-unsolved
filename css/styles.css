@@ -94,36 +94,43 @@ body {
 
 div.company-motto {
     max-width: 1024px;
-    height: 406px;
+    height: 100%;
     background-image: url(../assets/bg/background-top.svg);
     display: flex;
-    justify-content: space-between;
-    padding: 0 0 0 30px ;
+    justify-content: center;
     margin: 0 auto;
-}
+}           
 
 .company-slogan {
-    width: 482px;
+    width: 45%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
 }
 
 .company-slogan h2 {
     width: 334px;
     font-size: 40px;
     font-weight: 500;
+    margin: 60px 0 20px 0;
 }
 
-.company-slogan div p {
+.company-slogan p {
     font-weight: 500;
     font-size: 12px;
+    margin: 0 0 20px 0;
 }
 
 .learn-more {
     display: flex;
-    align-items: center;
+    align-items: end;
     gap: 20px;
+    color: #677788;
+}
+
+.learn-more p {
+    font-size: 17px;
+    font-weight: 700;
     color: #677788;
 }
 
@@ -156,8 +163,9 @@ div.company-motto {
 }
 
 .ad-logos {
-    width: 482px;
+    width: 45%;
     height: 406px;
+    margin: 40px 0 0 0;
     position: relative;
 }
 
@@ -284,21 +292,25 @@ div.company-motto {
 }
 
 .why-front h2 {
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
+    text-align: center;
+    font-weight: bold;
     font-size: 26px;
-    margin: 0;
+    margin: 0 0 10px 0;
 }
 
 .why-front p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     text-align: center;
-    margin: 0 auto;
+    
+    color: #677788;
 }
 
 /* company choose */
+.company-choose {
+    width: 100%;
+}
+
 .reasons {
     width: 224px;
     height: 145px;
@@ -353,7 +365,7 @@ div.company-motto {
 
 /* Pricing section */
 .company-pricing {
-    width: 1024px;
+    width: 100%;
     height: 692px;
     margin: 0 auto;
     
@@ -361,7 +373,17 @@ div.company-motto {
 
 .pricing-text {
     text-align: center;
-    padding-bottom: 50px;
+    margin: 0 0 30px 0;
+}
+
+.pricing-text h2 {
+    font-size: 26px;
+    margin: 10px;
+}
+
+.pricing-text p {
+    color: #677788;
+    font-size: 18px;
 }
 
 .pricing-content {
@@ -376,7 +398,6 @@ div.company-motto {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    font-style: normal;
     color: #677788;
     margin: 0;
 }
@@ -404,7 +425,6 @@ div.company-motto {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* border: 5px solid #677788; */
     box-shadow: 0px 0px 15px 2px #888888;
     padding: 40px;
 }
@@ -426,6 +446,10 @@ div.company-motto {
 .no-card {
     width: 137px;
     height: 73px;
+}
+
+.no-card button {
+    margin: 0 0 10px 0;
 }
 
 #card {
@@ -458,10 +482,13 @@ div.company-motto {
     width: 277px;
     height: 219px;
     border: 5px solid transparent;
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.components h2 {
+    
 }
 
 .symbol {
