@@ -387,7 +387,7 @@ div.company-motto {
 }
 
 .pricing-content {
-    width: 290px;
+    width: 95%;
     height: 194px;
     display: flex;
     flex-direction: column;
@@ -420,7 +420,7 @@ div.company-motto {
 }
 
 .subscription-content {
-    width: 370px;
+    width: 38%;
     height: 452px;
     display: flex;
     flex-direction: column;
@@ -438,7 +438,7 @@ div.company-motto {
 }
 
 .divider {
-    width: 290px;
+    width: 100%;
     height: 1px;
     background: #8D8D8D;
 }
@@ -484,11 +484,13 @@ div.company-motto {
     border: 5px solid transparent;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
-.components h2 {
-    
+.option img, 
+.option h2,
+.option p {
+    margin: 10px 0 15px 0;
 }
 
 .symbol {
@@ -497,18 +499,18 @@ div.company-motto {
 }
 
 .company-registry {
-    width: 1024px;
+    width: 100%;
     height: 709px;
     background-color: #20335B;
     margin: 0 auto;
-    padding: 40px;
+    /* padding: 40px; */
     display: flex;
     justify-content: center;
-    gap: 40px;
+    
 }
 
 .hire-us {
-    width: auto;
+    width: 50%;
     height: auto;
     color: #FFFFFF;
     display: flex;
@@ -519,7 +521,8 @@ div.company-motto {
 
 .hire-us h2 {
     margin: 4px 0;
-    font-size: larger;
+    font-size: 26px;
+    font-weight: 700;
 }
 
 .review {
@@ -571,18 +574,19 @@ div.company-motto {
 
 .form {
     width: 50%;
-    height: auto;
+    height: 90%;
     background-color: #FFFFFF;
-    border-radius: 15px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-        
+    justify-content: space-evenly;
+    margin: 30px;
 }
 
 .form-text {
     text-align: left;
     text-wrap: wrap;
-    margin: 20px 25px;
+    margin: 20px 30px;
 }
 
 .form-control {
@@ -653,6 +657,11 @@ input[type="checkbox"] {
     border-radius: 10px;
 }
 
+.textbox {
+    width: 392px;
+    height: 150px;
+}
+
 .selector div {
     width: 80%;
     display: flex;
@@ -673,6 +682,7 @@ input[type="checkbox"] {
 .selector a {
     color: #677788;
     font-weight: bold;
+    margin: 0;
 }
 
 .submit-form {
@@ -682,7 +692,7 @@ input[type="checkbox"] {
     border-color: #377DFF;
     background-color: #377DFF;
     color: #ffffff;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .about-us {
@@ -705,8 +715,6 @@ input[type="checkbox"] {
 .address {
     color: #677788;
 }
-
-
 
 .phone {
     color: #677788;
