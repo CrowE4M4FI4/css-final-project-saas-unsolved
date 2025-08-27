@@ -487,6 +487,18 @@ div.company-motto {
     /* justify-content: center; */
 }
 
+.sketch {
+    width: 60px;
+    height: 20px;
+    border-radius: 13px;
+    background-color: #01C9A7;
+    gap: 10px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF; 
+    font-weight: bold;
+}
+
 .option img, 
 .option h2,
 .option p {
@@ -503,14 +515,13 @@ div.company-motto {
     height: 709px;
     background-color: #20335B;
     margin: 0 auto;
-    /* padding: 40px; */
     display: flex;
-    justify-content: center;
+    justify-content: end;
     
 }
 
 .hire-us {
-    width: 50%;
+    width: 43%;
     height: auto;
     color: #FFFFFF;
     display: flex;
@@ -580,13 +591,13 @@ div.company-motto {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 30px;
+    margin: 35px 0;
 }
 
 .form-text {
     text-align: left;
     text-wrap: wrap;
-    margin: 20px 30px;
+    margin: 20px 45px;
 }
 
 .form-control {
@@ -599,41 +610,42 @@ div.company-motto {
 }
 
 .name {
-    width: 392px;
+    width: 82%;
     display: flex;
     justify-content: space-between;
 }
 
 #firstName {
-    width: 48%;
+    width: 187px;
     height: 44px;
 }
 
 #lastName {
-    width: 48%;
+    width: 187px;
     height: 44px;
 }
 
 #email {
-    width: 392px;
+    width: 396px;
     height: 44px;
 }
 
 .selectors {
-    width: 83%;
+    width: 82%;
     display: flex;
-    gap: 15px;
+    justify-content: space-between;
+    /* gap: 15px; */
 }
 
 #budget-select {
-    width: 48%;
+    width: 187px;
     height: 44px;
     font-size: 14px;
     font-weight: bold;
 }
 
 #country-select {
-    width: 48%;
+    width: 187px;
     height: 44px;
     font-size: 14px;
     font-weight: bold;
@@ -657,8 +669,8 @@ input[type="checkbox"] {
     border-radius: 10px;
 }
 
-.textbox {
-    width: 392px;
+#textbox {
+    width: 390px;
     height: 150px;
 }
 
@@ -682,6 +694,9 @@ input[type="checkbox"] {
 .selector a {
     color: #677788;
     font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    border-bottom-width: 5px;
     margin: 0;
 }
 
@@ -692,7 +707,6 @@ input[type="checkbox"] {
     border-color: #377DFF;
     background-color: #377DFF;
     color: #ffffff;
-    /* margin-top: 20px; */
 }
 
 .about-us {
