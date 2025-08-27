@@ -1,0 +1,46 @@
+@media (min-width: 1024px) {
+    .top-navigation
+    .trigram {
+        display: none;
+    }
+    
+    /* DESKTOP VIEW */
+
+
+
+    nav li a:hover {
+        transition: color 2.5s;
+        color: #377DFF;
+        font-weight: 700;
+    }
+
+    .buy-now:hover {
+        background-color: #FFFFFF;
+        color: #377DFF;
+    }
+
+    .play-video:hover {
+        background-color: #FFFFFF;
+        color: #377DFF;
+    }
+
+    .google, 
+    .google-ads,
+    .asana {
+        animation: 1.5s ease-in;
+        animation-direction: reverse;
+    }
+
+    /* @keyframes logos {
+        form {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(0%);
+        }
+    } */
+
+    .learn-more:hover {
+        color: #377DFF;
+    }
+}
