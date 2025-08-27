@@ -517,7 +517,6 @@ div.company-motto {
     margin: 0 auto;
     display: flex;
     justify-content: end;
-    
 }
 
 .hire-us {
@@ -584,8 +583,8 @@ div.company-motto {
 }
 
 .form {
-    width: 50%;
-    height: 90%;
+    width: 482px;
+    height: 648px;
     background-color: #FFFFFF;
     border-radius: 10px;
     display: flex;
@@ -597,7 +596,7 @@ div.company-motto {
 .form-text {
     text-align: left;
     text-wrap: wrap;
-    margin: 20px 45px;
+    margin: 0 9%;
 }
 
 .form-control {
@@ -669,13 +668,18 @@ input[type="checkbox"] {
     border-radius: 10px;
 }
 
-#textbox {
-    width: 390px;
+textarea {
+    width: 395px;
     height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    color: #828282;
+    padding: 8px;
 }
 
 .selector div {
-    width: 80%;
+    width: 86%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -694,9 +698,11 @@ input[type="checkbox"] {
 .selector a {
     color: #677788;
     font-weight: bold;
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    border-bottom-width: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, currentColor 2px, transparent 2px); 
+    background-size: 8px 5px; 
+    background-repeat: repeat-x;
+    background-position: 0 140%;
     margin: 0;
 }
 
@@ -711,19 +717,28 @@ input[type="checkbox"] {
 
 .about-us {
     max-width: 1024px;
-    margin: 0 auto;
+    height: 246px;
+    margin: 20px auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.logoA {
+    width: 100px;
+    height: auto;
 }
 
 .about-us p {
     color: #677788;
+
 }
 
 .location {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .address {
@@ -734,10 +749,31 @@ input[type="checkbox"] {
     color: #677788;
 }
 
-.logoA {
-    width: 100px;
-    height: auto;
-    padding-top: 20px;
+.about-us h2 {
+    margin: 0 0 15px 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info p,
+.info div span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.company p button {
+    width: 60px;
+    height: 18px;
+    background-color: #2576FF;
+    font-size: .6em;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    gap: 10px;
 }
 
 .fa-location-arrow {
@@ -746,7 +782,7 @@ input[type="checkbox"] {
     color: #677788;
 }
 
-.help span {
+.resources div {
     color: #677788;
 }
 
