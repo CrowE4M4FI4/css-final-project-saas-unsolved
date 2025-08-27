@@ -738,7 +738,7 @@ textarea {
     flex-direction: column;
     gap: 20px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .address {
@@ -762,7 +762,7 @@ textarea {
 .info p,
 .info div span {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .company p button {
