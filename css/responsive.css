@@ -27,18 +27,33 @@
     .google, 
     .google-ads,
     .asana {
-        animation: 1.5s ease-in;
-        animation-direction: reverse;
+        animation: logos 0.5s none 1 linear 0.5s;
     }
 
-    /* @keyframes logos {
-        form {
-            transform: translateX(100%);
+    @keyframes logos {
+        0% {
+            transform: translateX(1000%);
         }
-        to {
-            transform: translateX(0%);
+        100% {
+            transform: translateX(0);
         }
-    } */
+    }
+
+    .atlassian,
+    .paypal,
+    .weave,
+    .calendar {
+        animation: logoa 0.5s none 1 linear 0.5s;
+    }
+
+    @keyframes logoa {
+        0% {
+            transform: translateY(1000%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
 
     .learn-more:hover {
         color: #377DFF;
