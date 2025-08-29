@@ -27,7 +27,7 @@
     .google, 
     .google-ads,
     .asana {
-        animation: logos 0.5s none 1 linear 0.5s;
+        animation: logos 0.5s none 1 linear 1s;
     }
 
     @keyframes logos {
@@ -43,7 +43,7 @@
     .paypal,
     .weave,
     .calendar {
-        animation: logoa 0.5s none 1 linear 0.5s;
+        animation: logoa 0.5s none 1 linear 1s;
     }
 
     @keyframes logoa {
@@ -58,4 +58,11 @@
     .learn-more:hover {
         color: #377DFF;
     }
+
+    .subscription-content:hover {
+        transition: box-shadow .5s;
+        box-shadow: 10px 0px 15px 8px #888888;
+    }
+
+    
 }
