@@ -12,28 +12,30 @@
     <!-- header material -->
      <header>
       <div class="nav-header">
-      <div class="content header-content">
+      <div class=" header-content">
         <div class="logo">
           <img src="/assets/logos/logo-front.svg" alt="Front">
         </div>
         <nav class="top-navigation">
           <button class="trigram"><i class="fa fa-bars"></i></button>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Features</a></li>
-              <li><a href="">Learn</a></li>
-              <li><a href="">Pricing</a></li>
-              <li><a href="">Hire us</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#learn">Learn</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#hire-us">Hire us</a></li>
             </ul>
           <button class="buy-now">Buy Now</button>
         </nav>
         </div>
         </div>
-        <div class="company-motto">
+      </header>
+      <section>
+        <div class="content company-motto" id="home">
         <div class="company-slogan">
           <h2>Empowering teams with the freedom</h2>
           <p>Own the unlimited power of the web development</p>
-          <div class="learn-more">
+          <div class="learn-more" id="learn">
             <button class="play-video">
               <span class="play">
                 <span class="fa fa-play"></span>
@@ -53,9 +55,9 @@
           <div class="calendar"></div>
         </div>
       </div>
-     </header>
+    </section>
      <section>
-      <div class=" content company-choose">
+      <div class="content company-choose" id="features">
         <div class="why-us">
           <div class="why-front">
             <h2>Why front?</h2>
@@ -107,7 +109,7 @@
           </div>
      </section>
      <section>
-      <div class="content company-pricing">
+      <div class="content company-pricing" id="pricing">
         <div class="pricing-text">
           <h2>Pricing</h2>
           <p>No additional costs. Pay for what you use</p>
@@ -160,7 +162,7 @@
       </div>
      </section>
      <section>
-      <div class="content company-registry">
+      <div class="content company-registry" id="hire-us">
         <div class="hire-us">
           <div class="review">
             <h2 >Hire Us</h2>
@@ -200,14 +202,14 @@
             >
             <div class="selectors">
             <select name="budget" id="budget-select" >
-              <option label="Budget"></option>
+              <option label="" disabled selected>Budget</option>
               <option value="less than 20k">Less than 20k</option>
               <option value="20k - 50k">20k - 50k</option>
               <option value="50k -100k">50k - 100k</option>
               <option value="greater than 100k">Greater than 100k</option>
             </select>
             <select name="country" id="country-select">
-              <option label="Country"></option>
+              <option label="" disabled selected>Country</option>
               <option value="Canada">Canada</option>
               <option value="USA">USA</option>
               <option value="Mexico">Mexico</option>
@@ -242,7 +244,7 @@
             <span>153 Williamson Plaza, Maggieberg</span>
           </div>
           <div class="phone">  
-            <span class="fa-solid fa-phone"></span>
+            <i class="fa-solid fa-phone"></i>
             <span>+1 (062) 109-9222</span>
             </div>
         </div>
