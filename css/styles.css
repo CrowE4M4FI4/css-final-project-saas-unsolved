@@ -106,7 +106,7 @@ div.company-motto {
 }           
 
 .company-slogan {
-    width: 45%;
+    width: 482px;
     display: flex;
     flex-direction: column;
 }
@@ -306,11 +306,6 @@ div.company-motto {
     font-weight: 500;
     text-align: center;
     color: #677788;
-}
-
-/* company choose */
-.company-choose {
-    width: 100%;
 }
 
 .reasons {
