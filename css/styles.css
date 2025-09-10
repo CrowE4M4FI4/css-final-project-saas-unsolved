@@ -17,6 +17,12 @@ body {
     margin: 0 auto;
 }
 
+section, 
+#learn {
+    margin-top: 85px;
+    scroll-margin-top: 100px;
+}
+ 
 /* Header Content */
 header {
     width: 1024px;
@@ -93,6 +99,11 @@ header {
 .company-slogan {
     width: 471px;
     height: 406px;
+    margin: 0 auto;
+}
+
+.company-motto  {
+    margin: 0 auto;
 }
 
 div.company-motto {
@@ -106,9 +117,10 @@ div.company-motto {
 }           
 
 .company-slogan {
-    width: 482px;
+    width: 480px;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .company-slogan h2 {
@@ -121,20 +133,22 @@ div.company-motto {
 .company-slogan p {
     font-weight: 500;
     font-size: 12px;
-    margin: 0 0 20px 0;
 }
 
 .learn-more {
+    width: 482px;
+    height: 48px;
     display: flex;
-    align-items: end;
     gap: 20px;
     color: #677788;
+    margin: 20px 0 0 0;
 }
 
 .learn-more p {
     font-size: 14px;
     font-weight: 700;
     color: #677788;
+    margin: 15px 0;
 }
 
 .play-video {
@@ -508,27 +522,24 @@ div.company-motto {
 }
 
 .company-registry {
-    width: 100%;
+    width: 1024px;
     height: 709px;
     background-color: #20335B;
     margin: 0 auto;
     display: flex;
-    justify-content: end;
 }
 
 .hire-us {
-    width: 43%;
+    width: 482px;
     height: auto;
-    margin: 0 auto;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 80px;
+    padding: 0 0 0 80px;
 }
 
 .hire-us h2 {
-    margin: 4px 0;
     font-size: 26px;
     font-weight: 700;
 }
@@ -549,7 +560,6 @@ div.company-motto {
 .hire-us div i {
     font-weight: 500;
     font-size: 18px;
-    padding-top: 15px;
 }
 
 .separate {
@@ -564,6 +574,7 @@ div.company-motto {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 50px 0 0 0;
 }
 
 .moore p {
@@ -768,14 +779,4 @@ textarea {
 
 .resources div {
     color: #677788;
-}
-
-:target {
-    display: block;
-    padding-top: 85px;
-    margin-top: -85px;
-}
-
-section[id] {
-    scroll-margin-top: 85px;
 }
