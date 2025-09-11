@@ -88,4 +88,38 @@
     display: none;
 }
 
+header {
+    width: 100%;
+}
+
+.company-motto {
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+div.company-slogan {
+    height: 356px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+.company-slogan h2 {
+    width: 100%;
+}
+
+#learn {
+    margin: 30px;
+}
+
+.learn-more {
+    justify-content: center;
+}
+
+.ad-logos {
+    height: ;
+    margin: 0 auto;
+}
+
 }
